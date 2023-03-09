@@ -1,0 +1,81 @@
+.VideoDetail {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+  display: flex;
+  align-items: ce;
+}
+.videowrap {
+  display: flex;
+}
+.video {
+  flex: 2;
+}
+.video a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.video i {
+  color: gray;
+  margin-left: 4px;
+  font-size: 12px;
+}
+.video h5 {
+  color: gray;
+}
+.channeldetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.statistic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.statistic span button {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgba(92, 87, 87, 0.295);
+  margin: 10px 40px;
+  font-size: 14px;
+}
+.statistic span button i {
+  color: white;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.videorecommend {
+  overflow-x: scroll;
+  height: 90vh;
+  flex: 1;
+}
+/* .sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 500px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  overflow-x: scroll;
+}
+.disable {
+  flex: 1;
+  transition: 0.9s;
+  display: none;
+} */
+
+@media (max-width: 600px) {
+  .videowrap {
+    display: block;
+  }
+  .statistic span button {
+    padding: 10px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.searchFeed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+}
+.searchFeed h2 {
+  color: white;
+  padding: 20px 0;
+  text-align: left;
+}
+.searchFeed span {
+  color: red;
+}
